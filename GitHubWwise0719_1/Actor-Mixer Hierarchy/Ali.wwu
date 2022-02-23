@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{990CFBB1-0B54-41C1-A81D-3B89ADF969A8}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Ali" ID="{990CFBB1-0B54-41C1-A81D-3B89ADF969A8}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="AliSFX" ID="{7E3E5E73-6B7D-44BC-96F5-8FBFF621858D}" ShortID="97504447">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{DF98C1AA-FB36-47B9-8C0C-D63A3F79D30E}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="707"/>
+											<Property Name="Min" Type="Real64" Value="-1288"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0164420D-79AC-41C9-8F38-32D285B5CA27}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{205A61DB-11DA-4268-A8DA-CB90879A25D0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="NOTE 9 MD 9_28 1" ID="{CC975F37-78DA-4784-AD3B-956C31AEAADE}">
+							<Language>SFX</Language>
+							<AudioFile>NOTE 9 MD 9_28 1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="433851656"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="NOTE 9 MD 9_28 1" ID="{CC975F37-78DA-4784-AD3B-956C31AEAADE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
