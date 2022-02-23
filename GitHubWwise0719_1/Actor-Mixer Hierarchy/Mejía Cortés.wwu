@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2DA8531C-F267-4A19-A139-F008F4EE082F}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Mejía Cortés" ID="{2DA8531C-F267-4A19-A139-F008F4EE082F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="mejíaSFX" ID="{0F9C1BFE-1285-4655-B38C-E88EAE029EC5}" ShortID="587010754">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{F32FF67D-AA1E-445C-8C7A-3E96813D7309}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="3"/>
+											<Property Name="Min" Type="Real64" Value="-9"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0164420D-79AC-41C9-8F38-32D285B5CA27}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{205A61DB-11DA-4268-A8DA-CB90879A25D0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="STAB 21 MD 5_25" ID="{F6B4C5CC-5F9F-4DDA-8959-09B1C05C834D}">
+							<Language>SFX</Language>
+							<AudioFile>STAB 21 MD 5_25.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="991916105"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="STAB 21 MD 5_25" ID="{F6B4C5CC-5F9F-4DDA-8959-09B1C05C834D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
