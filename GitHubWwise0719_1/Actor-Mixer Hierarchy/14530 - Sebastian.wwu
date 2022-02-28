@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2D37BD6D-5AB8-480E-A5B1-DE6A8B959B66}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="14530 - Sebastian" ID="{2D37BD6D-5AB8-480E-A5B1-DE6A8B959B66}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Sebastian_14530" ID="{5ED7F819-2BF2-4997-877A-9A19CD2B1623}" ShortID="529468418">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A4285266-53A5-41A2-A417-461570DA9C15}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{367061A6-7DC2-4FF6-A34A-F8D3FEFEBAC6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="OOT_Rain" ID="{C5D8F100-0B3F-4066-9AC5-85DA62ECAEA6}">
+							<Language>SFX</Language>
+							<AudioFile>OOT_Rain.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="231378427"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="OOT_Rain" ID="{C5D8F100-0B3F-4066-9AC5-85DA62ECAEA6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
