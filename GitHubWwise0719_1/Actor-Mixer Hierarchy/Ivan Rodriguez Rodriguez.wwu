@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3657062A-E279-4ACA-A113-74167DCFBBBE}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Ivan Rodriguez Rodriguez" ID="{3657062A-E279-4ACA-A113-74167DCFBBBE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="OLIVER_bass_one_shot_short_jibber_C" ID="{D4DEE0BF-D0F0-48C9-9BE2-037CA9697E27}" ShortID="979040787">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>48</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{8BAC52C8-B286-4994-8BC1-92FCDD9AC1DB}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="35"/>
+											<Property Name="Min" Type="Real64" Value="-25"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="OutputBusLowpass" Type="int16">
+							<ValueList>
+								<Value>31</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>960</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{9B1D1E61-B8A5-4031-BBFF-FE24A9515275}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="1971"/>
+											<Property Name="Min" Type="Real64" Value="-1061"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0164420D-79AC-41C9-8F38-32D285B5CA27}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{205A61DB-11DA-4268-A8DA-CB90879A25D0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="OLIVER_bass_one_shot_short_jibber_C" ID="{3A53DE43-528C-44B5-901A-8768E578760D}">
+							<Language>SFX</Language>
+							<AudioFile>OLIVER_bass_one_shot_short_jibber_C.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="479310715"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="OLIVER_bass_one_shot_short_jibber_C" ID="{3A53DE43-528C-44B5-901A-8768E578760D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
